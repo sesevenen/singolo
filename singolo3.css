@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration:none;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.form {
+    background: linear-gradient(to bottom, #f06c64 calc(100% - 6px), #ea676b 6px);
+    padding: 69px 0 43px 0 ;
+}
+
+.form__title {
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.form__description {
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+.form__wrap-inner {
+    display: flex;
+}
+
+.form__wrap-inner form {
+    display: flex;
+    flex-direction: column;
+    min-width: 620px;
+    margin-right: 20px;
+}
+
+.form__input, .form__textarea {
+    padding-left: 15px;
+    width: 100%;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-bottom: 16px;
+}
+
+.form__input::placeholder, .form__textarea::placeholder {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-weight: 400;
+}
+
+.form__textarea {
+    padding-top: 7px;
+    height: 200px;
+    resize: none;
+}
+
+.contact {
+
+}
+
+.contact__title {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.contact__description, .contact__location, .contact__phone, .contact__email  {
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.contact__location, .contact__phone, .contact__email {
+    margin-bottom: 0px;
+}
+
+.contact__icon-location, .contact__icon-phone, .contact__icon-email {
+    display: inline-block;
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.contact__icon-location {
+    background-image: url("assets/location_icon.png");
+}
+
+.contact__icon-phone {
+    background-image: url("assets/phone_icon.png");
+}
+
+.contact__icon-email {
+    background-image: url("assets/mail_icon.png");
+}
+
+.footer {
+    background-color: #2d303a;
+    height: 76px;
+}
+
+.footer__wrap-inner {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    font-size: 12px;
+    line-height: 22px;
+    color: #666d89;
+    font-weight: 400;
+}
+
+.social {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    margin-right: 4px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.social:last-child {
+    margin-right: 0;
+}
+
+.social:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.social__facebook {
+    background-image: url("assets/facebook.png");
+}
+
+.social__google {
+    background-image: url("assets/google.png");
+}
+
+.social__twitter {
+    background-image: url("assets/twitter.png");
+}
+
+.social__linkedin {
+    background-image: url("assets/linkedIn.png");
+}
